@@ -2,16 +2,24 @@
 <html lang="en">
     <head>
         <title>Search</title>
-        <link rel="stylesheet" href="style/form.css">
+        <link rel="stylesheet" href="style/main.css">
     </head>
     <body>
-        <form class="form" action="https://google.com/search">
- 
+        <div class="top">
+            <a class="ref-btn" href="">Пошук зображенння</a>
+            <a class="ref-btn" href="">Розширений пошук</a>
+        </div>
+        <div class="img">
+            <img src="img/google.png" alt="Google">
+        </div>
+            <form action="https://google.com/search" target="_blank">
+                <div class="midle">
                 <input class="text" type="text" name="q">
-
-                <input class="button" type="submit" value="Пошук у Google">
-
-        </form>
+                <div>
+                    <input class="button" type="submit" value="Пошук у Google">
+                    <input class="button" type="submit" value="Мені пощастить" formaction="https://www.google.com/doodles" target="_blank">
+                </div>
+                </div>
+            </form>
     </body>
 </html>
-
