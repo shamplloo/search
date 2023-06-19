@@ -2,9 +2,25 @@
 <html lang="en">
 <head>
 <title>Пошук зображенння</title>
+<link rel="stylesheet" href="style/image_search.css">
 </head>
 <body>
-    
+    <div class="top">
+        <a class="ref-btn" href="index.html">Головна</a>
+        <a class="ref-btn" href="advance_search.html">Розширений пошук</a>
+    </div>
+    <div class="img">
+        <img src="img/google-image-search.jpg" alt="Google">
+    </div>
+    <form action="https://google.com/search" target="_blank">
+        <div class="midle">
+        <input class="text" type="text" name="q" placeholder="Пошук картинок">
+        <input type="hidden" name="tbm" value="isch">
+        <div>
+            <input class="button" type="submit" value="Пошук у Google">
+        </div>
+        </div>
+    </form>
 </body>
 
 
