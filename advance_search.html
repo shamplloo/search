@@ -1,11 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<title>Розширений пошук</title>
-</head>
-<body>
-    <h1>advanced</h1>
-</body>
 
+<head>
+    <title>Розширений пошук</title>
+    <link rel="stylesheet" href="style/advance_search.css">
+</head>
+
+<body>
+    <div class="top">
+        <img class="img" src="img/google.png" alt="Google">
+        <div class="two_btn">
+        <a class="ref-btn" href="index.html">Головна</a>
+        <a class="ref-btn" href="image_search.html">Пошук зображення</a>
+        </div>
+    </div>
+    <h2>Розширений пошук</h2>
+    <form action="https://www.google.com/search" method="get">
+
+        <div class="all">
+            
+            <p>Знайти сторінки</p>
+
+            <div class="input">
+                <label class="label" for="as_q">зі словами:</label>
+                <input class="text" type="text" id="as_q" name="as_q">
+            </div>
+
+            <div class="input">
+            <label class="label" for="as_epq">з словосполученням:</label>
+            <input class="text" type="text" id="as_epq" name="as_epq">
+            </div>
+            
+            <div class="input">
+            <label class="label" for="as_oq">з будь-яким із цих слів:</label>
+            <input class="text" type="text" id="as_oq" name="as_oq">
+            </div>
+            
+            <div class="input">
+            <label class="label" for="as_eq">без слів:</label>
+            <input class="text" type="text" id="as_eq" name="as_eq">
+            </div>
+            <div class="btn">
+            <input class="submit_btn" type="submit" value="Знайти">    
+            </div>
+
+        </div>
+    </form>
+</body>
 
 </html>
